@@ -1,0 +1,243 @@
+body {
+    background-color: #383c48; /*#383c48 #272b37*/
+    font-family: Georgia, "times new roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6em;
+    min-width: 940px;
+}
+body img {
+    width: 50%;
+}
+h1 {
+    font-size: 160%;
+}
+h1, h2 {
+    color: #FFA812; 
+    text-decoration: underline; /*СВОЙСТВО text-decoration — подчёркивание ссылок, текста*/
+    text-align: center; /*СВОЙСТВО text-align — горизонтальное выравнивание строк*/
+}
+p {
+    color: #C0C0C0; /*СВОЙСТВО color — цвет текста*/
+    text-align: center;
+}
+blockquote {
+    color: #FF2400;/*СВОЙСТВО color — цвет текста*/
+    font-family: monospace; /*СВОЙСТВО font-family — семейство шрифтов*/
+    text-align: center;
+}
+.notion {
+    font-style: italic;
+}
+.slogan {
+    font-weight: bold;
+}
+
+
+header {
+    background-color: #272b37;
+    margin: 10px 10px 0px 10px;
+}
+header img {
+    width: 100%;
+}
+header.time {
+    color: brown;
+    text-align: center;
+}
+
+section#main, section#history, section#forms, section#guns{
+    display: table-cell;
+    background-color: #272b37;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+
+aside {
+    background-color: #272b37;
+    display: table-cell;
+    width: 280px; 
+    text-align: center; 
+    vertical-align: top;
+}
+aside img {
+    width: 85%; 
+}
+aside h2 {
+    padding: 10px 0px 20px 0px;
+    color: white; 
+}
+aside h3 {
+    color: black; 
+}
+aside p {
+    background-color: black; 
+    line-height: 1.1em; 
+}
+.danger {
+    width: 35%; 
+    margin: 10px 75px; 
+    padding: 10px; 
+    font-size: 90%; 
+    color: red;  
+    border: 4px solid red; 
+}
+#jokes {
+    background-color: white; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: white; 
+    background-image: url(images/imageforjoke2.jpg); 
+    background-repeat: repeat-x; 
+}
+
+footer {
+  background-color: black;
+  color:            white;
+  text-align:       center;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  font-size:        90%;
+  clear:            left;
+}
+
+#chamber { 
+    color: green; 
+    border-color: #FFA812; 
+    border-width: 5px; 
+    border-style: double; 
+    background-color: black; 
+    padding: 25px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    margin: 20px; 
+    width: 300px;
+    text-align: center;
+}
+#chamber img {
+    width: 100%; 
+}
+
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+div#tableRow {
+    display: table-row;
+}
+
+section#briefing {
+    display: table-cell;
+    background-color: #272b37;
+    width: 20%;
+    padding: 5px;
+    vertical-align: top;
+}
+section#briefing img {
+    width: 100%;
+}
+
+ol {
+    color: #FF7E00;
+}
+
+#skull {
+    position: fixed;
+    top: 560px;
+    left: 30px;
+    width: 35%;
+}
+#skull a img {
+    border: none;
+}
+
+.BuildingBetterWorlds {
+    border-radius: 250px;
+}
+
+nav{
+    text-align: center;
+    background-color: #272b37;
+    margin: 10px 10px 0px 10px;   
+}
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    background-color: #383c48;
+    display: inline;
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: silver;
+    border-bottom: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+    background-color: #70727e;
+}
+img.wrapping {
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+}
+h2.wrapping {
+    clear: left; 
+}
+.gameover img {
+    width: 99%; /*СВОЙСТВО width — ширина элемента*/
+}
+video {
+    width: 100%;
+}
+
+table {
+    background-color: white;
+    border: 3px solid #70727e;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+table img {
+    width: 100px
+}
+td, th {
+    border: 2px solid #70727e;
+}
+caption {
+    font-style: italic;
+    padding-top: 8px;
+    color: #C0C0C0;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+th {
+    color: silver;
+    background-color: #272b37;
+}
+.cellcolor {
+    background-color: #C0C0C0;
+}
+
+ul li {
+    list-style-image: url(images/teeth.jpg);
+    padding-top: 5px;
+}
+
+@media all and (max-width: 1500px) { 
+td, 
+th { 
+font-size: 8px; 
+} 
+}
+
+
